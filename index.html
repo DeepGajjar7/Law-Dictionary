@@ -1,0 +1,298 @@
+<html>
+
+<head>
+  <title>Realtime Filter  Webapp using PoseNet Neural Network</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+</head>
+
+<body>
+
+<script src="main.js"></script>
+<center>
+  <h3 class="btn btn-info">Law Dictionary</h3>
+  <br><br>
+  <a class="alphabet" href="#a">A</a>
+  <a class="alphabet" href="#b">B</a>
+  <a class="alphabet" href="#c">C</a>
+  <a class="alphabet" href="#d">D</a>
+  <a class="alphabet" href="#e">E</a>
+  <a class="alphabet" href="#f">F</a>
+  <a class="alphabet" href="#g">G</a>
+  <a class="alphabet" href="#h">H</a>
+  <a class="alphabet" href="#i">I</a>
+  <a class="alphabet" href="#j">J</a>
+  <a class="alphabet" href="#k">K</a>
+  <a class="alphabet" href="#l">L</a>
+  <a class="alphabet" href="#m">M</a>
+  <a class="alphabet" href="#n">N</a>
+  <a class="alphabet" href="#o">O</a>
+  <a class="alphabet" href="#p">P</a>
+  <a class="alphabet" href="#q">Q</a>
+  <a class="alphabet" href="#r">R</a>
+  <a class="alphabet" href="#s">S</a>
+  <a class="alphabet" href="#t">T</a>
+  <a class="alphabet" href="#u">U</a>
+  <a class="alphabet" href="#v">V</a>
+  <a class="alphabet" href="#w">W</a>
+  <a class="alphabet" href="#x">X</a>
+  <a class="alphabet" href="#y">Y</a>
+  <a class="alphabet" href="#z">Z</a>
+</center>
+
+<div class="container" id="a">
+  <center>
+  <img src="a1n.png" class="words">
+  <img src="a2.png" class="words">
+  <img src="a3.png" class="words">
+  <img src="a4.png" class="words">
+  <img src="a5.png" class="words">
+  <img src="a6.png" class="words">
+  <img src="a7.png" class="words">
+  <img src="a8.png" class="words">
+  <img src="a9.png" class="words">
+  <img src="a10.png" class="words">
+  <img src="a11.png" class="words">
+  <img src="a12.png" class="words">
+</center>
+
+</div>
+
+<div class="container" id="b">
+  <center>
+  <img src="b1.png" class="words">
+  <img src="b2.png" class="words">
+  <img src="b3.png" class="words">
+  <img src="b4.png" class="words">
+  <img src="b5.png" class="words">
+  <img src="b6.png" class="words">
+</center>
+
+</div>
+
+<div class="container" id="c">
+  <center>
+  <img src="c1.png" class="words">
+  <img src="c2.png" class="words">
+  <img src="c3.png" class="words">
+  <img src="c4.png" class="words">
+  <img src="c5.png" class="words">
+  <img src="c6.png" class="words">
+  <img src="c7.png" class="words">
+  <img src="c8.png" class="words">
+  <img src="c9.png" class="words">
+  <img src="c10.png" class="words">
+  <img src="c11.png" class="words">
+  <img src="c12.png" class="words">
+  <img src="c13.png" class="words">
+  <img src="c14.png" class="words">
+</center>
+
+</div>
+
+<div class="container" id="d">
+  <center>
+  <img src="d1.png" class="words">
+  <img src="d2.png" class="words">
+  <img src="d3.png" class="words">
+  <img src="d4.png" class="words">
+</center>
+
+</div>
+
+<div class="container" id="e">
+  <center>
+  <img src="e1.png" class="words">
+  <img src="e2.png" class="words">
+  <img src="e3.png" class="words">
+  <img src="e4.png" class="words">
+  <img src="e5.png" class="words">
+  <img src="e6.png" class="words">
+</center>
+
+</div>
+
+<div class="container" id="f">
+  <center>
+  <img src="f1.png" class="words">
+  <img src="f2.png" class="words">
+  <img src="f3.png" class="words">
+</center>
+
+</div>
+
+<div class="container" id="g">
+  <center>
+  <img src="g1.png" class="words">
+  <img src="g2.png" class="words">
+</center>
+
+</div>
+
+<div class="container" id="h">
+  <center>
+  <img src="h1.png" class="words">
+  <img src="h2.png" class="words">
+</center>
+
+</div>
+
+<div class="container" id="i">
+  <center>
+  <img src="i1.png" class="words">
+  <img src="i2.png" class="words">
+</center>
+
+</div>
+
+<div class="container" id="j">
+  <center>
+  <img src="j1.png" class="words">
+  <img src="j2.png" class="words">
+  <img src="j3.png" class="words">
+  <img src="j4.png" class="words">
+</center>
+
+</div>
+
+<div class="container" id="k">
+<center>
+  <img src="k1.png" class="words">
+</center>
+
+</div>
+
+<div class="container" id="l">
+  <center>
+    <img src="l1.png" class="words">
+    <img src="l2.png" class="words">
+    <img src="l3.png" class="words">
+  </center>
+
+  </div>
+
+  <div class="container" id="m">
+    <center>
+      <img src="m1.png" class="words">
+      <img src="m2.png" class="words">
+      <img src="m3.png" class="words">
+      <img src="m4.png" class="words">
+    </center>
+  
+    </div>
+
+    <div class="container" id="n">
+      <center>
+        <img src="n1.png" class="words">
+        <img src="n2.png" class="words">
+      </center>
+    
+      </div>
+  
+      <div class="container" id="o">
+        <center>
+          <img src="o1.png" class="words">
+          <img src="o2.png" class="words">
+          <img src="o3.png" class="words">
+        </center>
+      
+        </div>
+
+          <div class="container" id="q">
+            <center>
+              <img src="q1.png" class="words">
+              <img src="q2.png" class="words">
+            </center>
+          
+            </div>
+
+            <div class="container" id="r">
+              <center>
+                <img src="r1.png" class="words">
+                <img src="r2.png" class="words">
+                <img src="r3.png" class="words">
+                <img src="r4.png" class="words">
+                <img src="r5.png" class="words">
+              </center>
+
+            </div>
+
+            <div class="container" id="s">
+              <center>
+                <img src="s1.png" class="words">
+                <img src="s2.png" class="words">
+                <img src="s3.png" class="words">
+                <img src="s4.png" class="words">
+                <img src="s5.png" class="words">
+                <img src="s6.png" class="words">
+                <img src="s7.png" class="words">
+                <img src="s8.png" class="words">
+               </center>
+    
+              </div>
+
+              <div class="container" id="t">
+                <center>
+                  <img src="t1.png" class="words">
+                  <img src="t2.png" class="words">
+                  <img src="t3.png" class="words">
+                  <img src="t4.png" class="words">
+                </center>
+              
+                </div>
+
+                <div class="container" id="u">
+                  <center>
+                    <img src="u1.png" class="words">
+                    <img src="u2.png" class="words">
+                    <img src="u3.png" class="words">
+                  </center>
+                
+                  </div>
+
+                  div class="container" id="v">
+                  <center>
+                    <img src="v1.png" class="words">
+                  </center>
+                
+                </div>
+
+                <div class="container" id="w">
+                  <center>
+                    <img src="w1.png" class="words">
+                    <img src="w2.png" class="words">
+                  </center>
+
+                </div>
+
+                <div class="container" id="y">
+                  <center>
+                    <img src="y1.png" class="words">
+                  </center>
+                
+
+          
+    
+
+
+        
+
+
+
+
+
+        
+
+
+</body>
+
+</html>
+
+
